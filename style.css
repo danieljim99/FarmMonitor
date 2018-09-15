@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Righteous;
+    src: url(Righteous.ttf);
+}
+
+
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:arial,helvetica;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	color:#ffdd23;
+	font-size:25px;
+	font-family:Righteous;
+
+}
+
+span{
+	color:#000;
+}
+
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:25px;
+}
+
+#navbar a:hover{
+	color:#ffdd23;
+}
+
+#showcase{
+	
+	/*background-color:red;*/
+	background-image:url('images/SiteBanner01.jpg');
+	/*background-image:url('images/abstract-red-background.jpg');*/
+	
+	background-position:center;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align:center;
+}

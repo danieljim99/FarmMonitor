@@ -1,6 +1,6 @@
 @font-face {
     font-family: Righteous;
-    src: url(Righteous.ttf);
+    src: url(fonts/Righteous.ttf);
 }
 
 
@@ -66,3 +66,35 @@ span{
 	margin-bottom:30px;
 	text-align:center;
 }
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+
+#control_panel{
+	padding:0px;
+	list-style:none;
+}
+
+#control_panel li{
+
+	background-color:#66ccff;
+	width:75%;
+	padding:10px;
+	margin:15px;
+
+}
+

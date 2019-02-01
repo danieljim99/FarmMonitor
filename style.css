@@ -19,6 +19,28 @@ body{
 	overflow:hidden;
 }
 
+.regar{
+
+	background:url(images/water4.png) no-repeat;
+    	height:100px;
+    	width:100px;
+	padding: 0;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	transform: translate(50%, -50%);
+
+}
+.luz{
+	background:url(images/luz.png) no-repeat;
+    	height:100px;
+    	width:100px;
+	padding: 0;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	transform: translate(50%, -50%);
+
+}
+
 #main-header{
 	color:#ffdd23;
 	font-size:25px;
